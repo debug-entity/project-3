@@ -5,6 +5,9 @@ import Header from './Nav'
 import Home from './Home'
 import {Route} from 'react-router-dom'
 import './App.css';
+import About from './About'
+import Footer from './Footer';
+
 
 class App extends Component {
   render(){
@@ -13,11 +16,14 @@ class App extends Component {
       <div className="App">
 
         {/* Routes */}
-      <Route path="/" component={Header}/>
+      <Route  path="/" component={Header}/>
       <Route  path="/main" component={Main}/>
-      <Route exact path="/home" component={Home}/>
-      
-       
+      <Route path="/home" component={Home}/>
+      {/* <Link to="/main">Start</Link><br /> */}
+      {/* {<Route path="/about" component={About} />
+      <Link to="/about">About</Link> <br />  */}
+
+        <Footer />
       
       
       </div>
