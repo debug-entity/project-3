@@ -26,23 +26,14 @@ class App extends Component {
       })
   };
   handleChange = event => {
-    // get the users input
     const userInput = event.target.value;
-    // get which input they typed in
     const inputName = event.target.name;
-    // copy the state of formData
-    // const formDataCopy = Object.assign(this.state.formData)
-    // update the key in formData copy with the new value
-    // set the state with the updated formData
+
     this.setState({
       text: userInput
-      // formData: formDataCopy
     });
   };
   render() {
-    //textanalysis("i cool this nnnnnnnnnnnnnn").then(d => {
-    //console.log(d.data);
-    //})
     return (
       <div>
         <h1>Your Dairy </h1>
