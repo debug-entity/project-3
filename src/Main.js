@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import { textanalysis } from "./api";
+import About from './About'
 
 class Main extends Component {
  
