@@ -2,7 +2,8 @@
 import React,{Component} from 'react';
 import Main from './Main';
 import Header from './Nav'
-import {Route,Link} from 'react-router-dom'
+import Home from './Home'
+import {Route} from 'react-router-dom'
 import './App.css';
 
 class App extends Component {
@@ -13,9 +14,10 @@ class App extends Component {
 
         {/* Routes */}
       <Route path="/" component={Header}/>
-      <Route path="/main" component={Main}/>
-      <Link to="/main">Start</Link>
-
+      <Route  path="/main" component={Main}/>
+      <Route exact path="/home" component={Home}/>
+      
+       
       
       
       </div>
