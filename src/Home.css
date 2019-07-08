@@ -1,0 +1,22 @@
+.home-comp{
+    height: 300px;
+
+}
+.btn{
+    margin-top: 50px;
+
+}
+.startBtn{
+    text-decoration: none;
+    color: aliceblue;
+    font-size: 30px;
+    font-weight: bold;
+    font-family: 'Righteous', cursive;
+  
+
+
+}
+.startBtn:hover{
+    color: rgb(179, 177, 177);
+    text-decoration: none;
+}
