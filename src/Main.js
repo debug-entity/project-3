@@ -1,7 +1,8 @@
 import React, { Component } from "react";
 import { textanalysis } from "./api";
-import About from './About'
 import Chart from "react-apexcharts";
+import Feelings from './Feelings'
+import './Main.css';
 
 class Main extends Component {
  
@@ -23,11 +24,13 @@ class Main extends Component {
        },
       title: {
         text: "Feelings Of people In month",
-        align: "center"
-      },
+        align: "center",
+       
+
+            },
        grid: {
         row: {
-          colors: ["#f3f3f3", "transparent"], // takes an array which will be repeated on columns
+          colors: ["#f3f3f3", "#f3f3f3"], // takes an array which will be repeated on columns
          opacity: 0.5
         }
       },
@@ -117,9 +120,10 @@ class Main extends Component {
             <button type="submit">save</button>
         </form>
 
-          your feeling :{this.state.score_tag}
-        <br />
-        Today's Date :{Date()}
+          {/* your feeling :{this.state.score_tag} */}
+          <Feelings score={this.state.score_tag}/>
+        <br/>
+        {/* Today's Date :{Date()} */}
         <div className="app">
         <div className="row">
           <div className="mixed-chart">
@@ -128,7 +132,7 @@ class Main extends Component {
               options={this.state.options}
               series={this.state.series}
               type="line"
-              width="700"
+              width="500"
               align="center"
               />
             
