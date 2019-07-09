@@ -7,13 +7,14 @@ import './Footer.css';
 class Footer extends Component {
   render() {
     return (
-      <div>
+      <div className="footer">
         <Route path="/about" component={About} />
         <Route path="/contact" component={Contact} />
         <hr/>
         <Link className="footerBtn" to="/about">About | </Link>
         <Link className="footerBtn" to="/contact"> Contact</Link>
-        <p>&copy;2019 Onasa </p>
+        
+        <p className="copyright"> Copyright &copy;2019 ONASA </p>
 
       </div>
     );

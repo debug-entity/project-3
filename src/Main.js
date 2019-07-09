@@ -25,16 +25,21 @@ class Main extends Component {
           },
           title: {
             text: "Feelings Of people In month",
-            align: "center"
+            align: "center",
+            style:{
+              color: "#f3f3f3",
+              fontSize: '20px',
+              fontFamily: undefined,
+            }
           },
           grid: {
             row: {
-              colors: ["#f3f3f3", "transparent"], // takes an array which will be repeated on columns
+              colors: ["#f3f3f3", "#f3f3f3"], // takes an array which will be repeated on columns
               opacity: 0.5
             }
           },
           xaxis: {
-            categories: ["P+", "P", "N", "N", "N+", "non", "N+", "P+", "P+", "N"]
+            categories: []
           }
         },
         series: [

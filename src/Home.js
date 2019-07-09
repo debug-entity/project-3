@@ -25,7 +25,7 @@ class Home extends Component{
         return(
             <div className="home-comp">
             <h3>{this.state.quoteText}</h3><br/>
-            <h3> ― Mae West</h3>
+            
            
             </div>
         )

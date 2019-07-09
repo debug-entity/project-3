@@ -1,0 +1,39 @@
+.save{
+   font-size: 20px;
+   color: white;
+   padding-left:15px ; 
+   padding-right:15px ;
+   font-family: 'Fredericka the Great', cursive;
+   font-family: 'Philosopher', sans-serif;
+   font-family: 'Staatliches', cursive;
+   font-family: 'Lusitana', serif;
+   font-family: 'Saira Condensed', sans-serif;
+   font-family: 'Contrail One', cursive;
+   font-family: 'Palanquin', sans-serif;
+}
+.yourd{
+
+    font-family: 'Fredericka the Great', cursive;
+   font-family: 'Philosopher', sans-serif;
+   font-family: 'Staatliches', cursive;
+   font-family: 'Lusitana', serif;
+   font-family: 'Saira Condensed', sans-serif;
+   font-family: 'Contrail One', cursive;
+   font-family: 'Palanquin', sans-serif;
+}
+.diry{
+    font-family: 'Poiret One', cursive;
+    font-size: 30px;
+}
+
+.feeling{
+    width: 25%;
+    height: 30px;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    font-size: 20px;
+}
