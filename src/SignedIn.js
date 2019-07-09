@@ -2,24 +2,27 @@ import React from 'react';
 import Chart from "react-apexcharts";
 import Header from './Header';
 import {Route} from 'react-router-dom';
+import {Link} from "react-router-dom";
+import './SignedIn.css'
 
 const SignedIn = (props) => (
         <div>
           <Header />
-          <button onClick={props.signOut}>Sign out</button>
+          <Link onClick={props.signOut} className="signout" to="/">Sign out</Link>
+          {/* <button onClick={props.signOut}>Sign out</button> */}
           <hr/>
           <Route exact path='/' render={()=>{ 
             return (
               <React.Fragment>
-                <h1>Your Dairy </h1>
+                <h1 className="yourd">Your Dairy </h1>
                 <p>Hello, {props.user.displayName}</p>
                 <br />
-                <form onSubmit={props.parent.submitMyForm}>
-                  <label>How do you feel today? </label>
-                  <input onChange={props.parent.handleChange} name='text' />
+                <form   onSubmit={props.parent.submitMyForm}>
+                  <label className="diry">How do you feel today? </label><br/>
+                  <input  className="feeling" onChange={props.parent.handleChange} name='text' />
         
                   <br />
-                  <button type="submit">save</button>
+                  <button className="save" type="submit">save</button>
                 </form>
         
                 your feeling :{props.parent.state.score_tag}

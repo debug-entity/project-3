@@ -20,7 +20,7 @@
     font-family: 'Contrail One', cursive;
     font-family: 'Palanquin', sans-serif;
 }
-.feedback h1{
+.title{
     margin-bottom: 5%;
     text-align: center
   
@@ -41,9 +41,6 @@
     margin-bottom: 90px;
     text-align: left;
 
-}
-.lab{
-    text-align: left
 }
 
 
