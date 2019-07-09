@@ -1,7 +1,7 @@
 import React from 'react';
 import Header from './Header';
 import {Route} from 'react-router-dom';
-
+import Home from './Home';
 const SignedOut= (props) => (
     <div>
       <Header />
@@ -10,8 +10,7 @@ const SignedOut= (props) => (
      <Route exact path='/' render={()=>{ 
             return (
                 <div>
-                      <h2>“You only live once, but if you do it right,<br/> once is enough.”</h2><br/>
-                      <h3> ― Mae West</h3>
+                      <Home />
                 </div>
             )
      }}
