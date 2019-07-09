@@ -26,11 +26,6 @@ class Home extends Component{
             <div className="home-comp">
             <h3>{this.state.quoteText}</h3><br/>
             <h3> ― Mae West</h3>
-          <div className="btn">
-          <Link className="startBtn" to="/main">Start</Link>
-         
-
-          </div>
            
             </div>
         )
