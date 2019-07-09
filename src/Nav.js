@@ -10,7 +10,7 @@ import './Nav.css';
 const Header = () =>{
     return(
         <header>
-            <h1>ONASA</h1><br/>
+            <h1>ONASA</h1>
             <Link className="navBtn" to="/home">Home</Link>
 
             <hr/>

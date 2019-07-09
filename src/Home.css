@@ -1,9 +1,12 @@
 .home-comp{
     height: 300px;
+    padding-top: 6%;
+    padding-bottom: 7%;
 
 }
 .btn{
     margin-top: 50px;
+    /* padding-top: 130px; */
 
 }
 .startBtn{
@@ -11,12 +14,23 @@
     color: aliceblue;
     font-size: 30px;
     font-weight: bold;
-    font-family: 'Righteous', cursive;
-  
-
+    font-family: 'Fredericka the Great', cursive;
+    font-family: 'Philosopher', sans-serif;
 
 }
 .startBtn:hover{
-    color: rgb(179, 177, 177);
+    color: rgb(25, 113, 122);
     text-decoration: none;
+}
+
+.qute{
+    
+    font-size: 40px;
+    font-family: 'Fredericka the Great', cursive;
+    font-family: 'Philosopher', sans-serif;
+    font-family: 'Staatliches', cursive;
+}
+
+.qute2{
+    font-size: 25px;
 }
