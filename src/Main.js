@@ -3,7 +3,8 @@ import { textanalysis } from "./api";
 import './Main.css';
 import TestFirebase from './TestFirebase';
 import withFirebaseAuth, {providers, firebaseAppAuth, db} from './TestFirebase';
-import Start from './Start';
+import SignedIn from './SignedIn';
+import SignedOut from './SignedOut';
 
 class Main extends Component {
     state = {
@@ -117,12 +118,16 @@ class Main extends Component {
     
     render() {
         const { user, signOut, signInWithGoogle } = this.props;
+        let authView
+        if (user) {
+          authView = <SignedIn user={user} signOut={signOut} parent={this}/>
+        } else {
+          authView = <SignedOut signInWithGoogle={signInWithGoogle} />
+        }
         return(
-            <header>
+            <header>  
                 <TestFirebase />
-                <Start auth={{ user, signOut, signInWithGoogle }} parent={this} />
-
-                <hr/>
+                 {authView}
             </header>
         )
     }

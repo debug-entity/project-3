@@ -1,26 +1,24 @@
 import React from "react";
-import './Contact.css'
 
 const Contact =()=>(
  
       <div className="contact">
-          
         <form className="feedback">
-        <h1> Contact us </h1>
-          <label className="lab" >Name </label><br/>
-          <input className="form" type="name" placeholder ="Your Name"/>
+          <h1>Contact us </h1>
+          <label>Name</label>
+          <input />
           <br />
-          <label>Email </label>
-          <input className="form" type="email" name="emailaddress" placeholder="Email Address"/>
+          <label>Email</label>
+          <input type="email" name="emailaddress" />
           <br />
-          <label>Feedback </label>
+          <label>Feedback</label>
           <br />
-          <textarea className="form" placeholder="We hope to know your opinion about our App" rows="4" cols="50">
-            
+          <textarea rows="4" cols="50">
+            We hope to know your opinion about our App
           </textarea>
           <br />
-            
-          <button className="btnn" type="submit">Submit</button>
+
+          <input type="submit" />
         </form>
   
       </div>
