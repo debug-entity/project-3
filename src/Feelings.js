@@ -1,23 +1,24 @@
 import React, {Component} from 'react'
-import './Feelings.css';
+
+
+
+
+
 
 class Feelings extends Component{
 
+
+
     render(){
-       
-       
+        const date = (
+           this.props.score ? <p>{Date()}</p>  : ""
+
+        )
         return(
-           
-            // the result of input
-           this.props.score ? 
-            <div className="card">                       
-            <div className="card-body">
-            <h3>{this.props.score}</h3>
-            <p>{Date()}</p> 
-             </div>
-          </div> 
-            : "" 
-     
+            <div>
+                 <h3>{this.props.score}</h3>
+                 {date}
+            </div>
                 )
 
 
@@ -26,4 +27,6 @@ class Feelings extends Component{
    
 }
 
-export default Feelings;
+
+export default Feelings
+ 

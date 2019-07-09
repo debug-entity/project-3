@@ -1,26 +1,8 @@
 .footerBtn{
-    color: rgb(45, 121, 131);
+    color: aliceblue;
     text-decoration: none;
 }
 .footerBtn:hover{
     color: aliceblue;
     text-decoration: none;
 }
-
-.footer{
-    padding-top: 6%;
-    
-    
-}
-.footer hr{
-    width:70%;
-    border-top: 1px solid rgb(254, 254, 254);
-    /* margin-top: 90px;
-    padding: 20px */
- 
-  }
-
-  .copyright {
-      color: rgb(45, 121, 131);
-      
-  }

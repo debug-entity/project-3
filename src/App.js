@@ -1,32 +1,17 @@
 
 import React,{Component} from 'react';
-import Main from './Main';
-import Header from './Nav'
-import Home from './Home'
+import Main from './Main'
 import {Route} from 'react-router-dom'
 import './App.css';
-import About from './About'
 import Footer from './Footer';
-
-
 
 class App extends Component {
   render(){
 
     return (
       <div className="App">
-
-        {/* Routes */}
-      <Route  path="/" component={Header}/>
-      <Route  path="/main" component={Main}/>
-      <Route path="/home" component={Home}/>
-      {/* <Link to="/main">Start</Link><br /> */}
-      {/* {<Route path="/about" component={About} />
-      <Link to="/about">About</Link> <br />  */}
-
+        <Main />
         <Footer />
-      
-      
       </div>
     );
 
