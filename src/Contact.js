@@ -4,9 +4,9 @@ const Contact =()=>(
  
       <div className="contact">
         <form className="feedback">
-          <h1>Contact us </h1>
-          <label>Name</label>
-          <input />
+        <h1 className="title"> Contact us </h1>
+          <label  >Name </label><br/>
+          <input className="form" type="name" placeholder ="Your Name"/>
           <br />
           <label>Email</label>
           <input type="email" name="emailaddress" />

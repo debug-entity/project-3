@@ -1,0 +1,47 @@
+.about{
+color: white;
+font-family: 'Fredericka the Great', cursive;
+    font-family: 'Philosopher', sans-serif;
+    font-family: 'Staatliches', cursive;
+    font-family: 'Lusitana', serif;
+    font-family: 'Saira Condensed', sans-serif;
+    font-family: 'Contrail One', cursive;
+    font-family: 'Palanquin', sans-serif;
+
+}
+
+.aboutAdd{
+    margin-bottom: 20px;
+}
+
+.pragraph{
+    margin-bottom: 10%;
+    font-size: 20px;
+}
+
+.qut{
+    margin-left: 30%;
+    width: 40%;
+    /* background-color: rgba(135, 167, 180, 0.575);
+    border-color: rgba(135, 167, 180, 0.575); */
+    font-family: 'Fredericka the Great', cursive;
+    font-family: 'Philosopher', sans-serif;
+    font-family: 'Staatliches', cursive;
+    font-family: 'Lusitana', serif;
+    font-family: 'Saira Condensed', sans-serif;
+    font-family: 'Contrail One', cursive;
+    font-family: 'Palanquin', sans-serif;
+    font-family: 'Itim', cursive;
+}
+
+.team{
+
+    margin-top: 150px;
+    
+    
+}
+
+.logo{
+    font-size: 30px;
+}
+
