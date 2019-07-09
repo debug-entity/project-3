@@ -1,6 +1,8 @@
 import React, {Component} from 'react';
 import {Link} from 'react-router-dom'
 import './Home.css';
+// import TestFirebase from './TestFirebase';
+
 class Home extends Component{
     render(){
         return(
@@ -9,6 +11,8 @@ class Home extends Component{
             <h3> ― Mae West</h3>
           <div className="btn">
           <Link className="startBtn" to="/main">Start</Link>
+         
+
           </div>
 
             </div>
