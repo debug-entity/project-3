@@ -27,6 +27,5 @@ class Feelings extends Component{
    
 }
 
-
 export default Feelings
  

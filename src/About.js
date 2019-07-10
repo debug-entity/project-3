@@ -14,7 +14,7 @@ const About = () => (
          <br/>
         <div className="team">
          <h3>Team member:</h3>
-         <h4> Omar , Nuayyier , Asmaa , Saeed , Ahmad </h4>
+         <h4> Omar , Nuwayyir , Asmaa , Saeed , Ahmed </h4>
          
          </div>
 

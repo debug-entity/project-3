@@ -22,12 +22,12 @@ const SignedIn = (props) => (
                   <input  className="feeling" onChange={props.parent.handleChange} name='text' />
         
                   <br />
-                  <button className="save" type="submit">save</button>
+                  <button className="save" type="submit">Save</button>
                 </form>
-        
-                your feeling :{props.parent.state.score_tag}
+                 <h5>Your Feeling</h5>
+                {props.parent.state.score_tag ?<h3 className="card">{props.parent.state.score_tag}</h3> :""}
                 <br />
-                Today's Date :{Date()}
+                {/* Today's Date :{Date()} */}
                 <div className="app">
                   <div className="row">
                     <div className="mixed-chart">
