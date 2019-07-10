@@ -25,7 +25,7 @@ class Home extends Component{
         return(
             <div className="home-comp">
             <h3>{this.state.quoteText}</h3><br/>
-            
+            <img src="https://im5.ezgif.com/tmp/ezgif-5-50543a332183.gif" alt=""/>
            
             </div>
         )

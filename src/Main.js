@@ -19,12 +19,13 @@ class Main extends Component {
           },
           dataLabels: {
             enabled: true
+            
           },
           stroke: {
             curve: "straight"
           },
           title: {
-            text: "Feelings Of people In month",
+            text: "",
             align: "center",
             style:{
               color: "#f3f3f3",
